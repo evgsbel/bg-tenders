@@ -1,0 +1,191 @@
+@import "font"
+$regular:  "Webnar-regular"
+$bold:  "Webnar-bold"
+$bg-grey: #F4F4F4
+body
+  color: #464646
+
+  font-size: 16px
+  font-family: $regular
+b, .bold
+  font-family: $bold
+.n-wr
+  white-space: nowrap
+ul, ol
+  list-style: none
+  margin: 0
+  padding: 0
+img
+  max-width: 100%
+p
+  margin: 0
+.padding
+  padding: 60px 0
+.container
+  width: 1170px
+  max-width: 100%
+.title
+  color: #005892
+  font-size: 35px
+  line-height: 42px
+  margin-bottom: 40px
+  text-align: center
+  &_white
+    color: #fff
+  span
+    font-size: 20px
+    color: #000
+.hide-svg
+  display: none
+
+// help
+.t-help
+  &__item
+    text-align: center
+  &__img
+    margin-bottom: 25px
+  &__title
+    text-align: center
+    font-size: 20px
+    line-height: 22px
+// help END
+
+// steps
+.t-steps
+  background: $bg-grey
+  &__item
+    margin-bottom: 50px
+  &__round
+    border: 2px solid #006298
+    box-sizing: border-box
+    width: 92px
+    height: 92px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50%
+    margin-right: 25px
+  &__text
+    max-width: 70%
+// steps END
+
+//feedback
+.t-feedback
+  background-image: url("../img/blur.png")
+  background-color: #006198
+  background-repeat: no-repeat
+  background-size: cover
+  &__input
+    border: 2px solid #FFFFFF
+    box-sizing: border-box
+    border-radius: 5px
+    background: transparent
+    font-size: 18px
+    line-height: 22px
+    color: #fff
+    height: 52px
+    padding-left: 20px
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    &::placeholder
+      color: #fff
+      font-size: 18px
+      line-height: 22px
+    &:focus
+      background: transparent
+      color: #fff
+      box-shadow: none
+      border: 2px solid #f6bf4b
+  &__submit
+    height: 52px
+    color: #333
+    font-family: $bold
+    font-size: 18px
+    line-height: 22px
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    transition: background-color, color .3s ease
+    &:hover
+      color: #fff
+      background-color: #f6bf4b
+      border: 2px solid #f6bf4b
+.confidencial
+  color: #fff
+  margin: 30px auto
+  font-size: 16px
+  line-height: 25px
+  text-align: center
+  span
+    font-family: $bold
+  a
+    color: #fff
+    text-decoration: underline
+    font-size: 16px
+    line-height: 25px
+    &:hover
+      text-decoration: none
+//feedback END
+
+//requirements
+.t-requirements
+  &__table
+    tr
+      td,th
+        border: 2px solid #fff
+        padding: 15px 20px
+        box-sizing: border-box
+      th
+        background: #006298
+        color: #fff
+        font-size: 18px
+        line-height: 22px
+        vertical-align: middle
+        font-weight: normal
+        &:last-child
+          background: #0780C4
+      td:first-child, th:first-child
+        width: 50%
+      td
+        background: #f4f4f4
+        font-size: 16px
+        line-height: 19px
+        color: #1D1D1D
+      &:nth-child(odd) td
+        background: #E1E1E1
+//requirements END
+
+// documents
+.t-documents
+  background: $bg-grey
+  &__item
+    background: #FFFFFF
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25)
+    border-radius: 3px
+    margin-bottom: 50px
+    transition: all .3s ease-in-out
+    max-width: 49%
+    height: 130px
+    color: #000
+    font-size: 20px
+    line-height: 25px
+    cursor: pointer
+    &:hover
+      background-color: #006298
+      color: #fff
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15)
+    svg
+      fill: black
+      transition: fill .3s ease-in-out
+    &:hover svg
+      fill: #fff
+  &__icon
+    margin-right: 30px
+    padding-left: 30px
+    box-sizing: border-box
+// documents END
+
+// sites
+.t-sites
+
+// sitees END

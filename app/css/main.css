@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "Webnar-regular";
+  src: url("../fonts/WEBNAR-REGULAR.OTF"), url("../fonts/Webnar-Regular.ttf"), url("../fonts/Webnar-Regular.eot"), url("../fonts/Webnar-Regular.woff"), url("../fonts/Webnar-Regular.svg"); }
+
+@font-face {
+  font-family: "Webnar-italic";
+  font-style: italic;
+  src: url("../fonts/WEBNAR-REGULARITALIC.OTF"), url("../fonts/Webnar-RegularItalic.ttf"), url("../fonts/Webnar-RegularItalic.eot"), url("../fonts/Webnar-RegularItalic.woff"), url("../fonts/Webnar-RegularItalic.svg"); }
+
+@font-face {
+  font-family: "Webnar-bold";
+  font-weight: bold;
+  src: url("../fonts/WEBNAR-BOLD.OTF"), url("../fonts/Webnar-Bold.ttf"), url("../fonts/Webnar-Bold.eot"), url("../fonts/Webnar-Bold.woff"), url("../fonts/Webnar-Bold.svg"); }
+
+@font-face {
+  font-family: "Webnar-bold_italic";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/WEBNAR-BOLDITALIC.OTF"), url("../fonts/Webnar-BoldItalic.ttf"), url("../fonts/Webnar-BoldItalic.eot"), url("../fonts/Webnar-BoldItalic.woff"), url("../fonts/Webnar-BoldItalic.svg"); }
+
+@font-face {
+  font-family: "Webnar-thin";
+  font-weight: 100;
+  src: url("../fonts/WEBNAR-THIN.OTF"), url("../fonts/Webnar-Thin.ttf"), url("../fonts/Webnar-Thin.eot"), url("../fonts/Webnar-Thin.woff"), url("../fonts/Webnar-Thin.svg"); }
+
+body {
+  color: #464646;
+  font-size: 16px;
+  font-family: "Webnar-regular"; }
+
+b, .bold {
+  font-family: "Webnar-bold"; }
+
+.n-wr {
+  white-space: nowrap; }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+p {
+  margin: 0; }
+
+.padding {
+  padding: 60px 0; }
+
+.container {
+  width: 1170px;
+  max-width: 100%; }
+
+.title {
+  color: #005892;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  text-align: center; }
+  .title_white {
+    color: #fff; }
+  .title span {
+    font-size: 20px;
+    color: #000; }
+
+.hide-svg {
+  display: none; }
+
+.t-help__item {
+  text-align: center; }
+
+.t-help__img {
+  margin-bottom: 25px; }
+
+.t-help__title {
+  text-align: center;
+  font-size: 20px;
+  line-height: 22px; }
+
+.t-steps {
+  background: #F4F4F4; }
+  .t-steps__item {
+    margin-bottom: 50px; }
+  .t-steps__round {
+    border: 2px solid #006298;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    margin-right: 25px; }
+  .t-steps__text {
+    max-width: 70%; }
+
+.t-feedback {
+  background-image: url("../img/blur.png");
+  background-color: #006198;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .t-feedback__input {
+    border: 2px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    height: 52px;
+    padding-left: 20px;
+    border-radius: 5px; }
+    .t-feedback__input::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 18px;
+      line-height: 22px; }
+    .t-feedback__input::-moz-placeholder {
+      color: #fff;
+      font-size: 18px;
+      line-height: 22px; }
+    .t-feedback__input:-ms-input-placeholder {
+      color: #fff;
+      font-size: 18px;
+      line-height: 22px; }
+    .t-feedback__input::-ms-input-placeholder {
+      color: #fff;
+      font-size: 18px;
+      line-height: 22px; }
+    .t-feedback__input::placeholder {
+      color: #fff;
+      font-size: 18px;
+      line-height: 22px; }
+    .t-feedback__input:focus {
+      background: transparent;
+      color: #fff;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      border: 2px solid #f6bf4b; }
+  .t-feedback__submit {
+    height: 52px;
+    color: #333;
+    font-family: "Webnar-bold";
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    -webkit-transition: background-color, color .3s ease;
+    -o-transition: background-color, color .3s ease;
+    transition: background-color, color .3s ease; }
+    .t-feedback__submit:hover {
+      color: #fff;
+      background-color: #f6bf4b;
+      border: 2px solid #f6bf4b; }
+
+.confidencial {
+  color: #fff;
+  margin: 30px auto;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center; }
+  .confidencial span {
+    font-family: "Webnar-bold"; }
+  .confidencial a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 25px; }
+    .confidencial a:hover {
+      text-decoration: none; }
+
+.t-requirements__table tr td, .t-requirements__table tr th {
+  border: 2px solid #fff;
+  padding: 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.t-requirements__table tr th {
+  background: #006298;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  vertical-align: middle;
+  font-weight: normal; }
+  .t-requirements__table tr th:last-child {
+    background: #0780C4; }
+
+.t-requirements__table tr td:first-child, .t-requirements__table tr th:first-child {
+  width: 50%; }
+
+.t-requirements__table tr td {
+  background: #f4f4f4;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D1D1D; }
+
+.t-requirements__table tr:nth-child(odd) td {
+  background: #E1E1E1; }
+
+.t-documents {
+  background: #F4F4F4; }
+  .t-documents__item {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-bottom: 50px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    max-width: 49%;
+    height: 130px;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer; }
+    .t-documents__item:hover {
+      background-color: #006298;
+      color: #fff;
+      -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15); }
+    .t-documents__item svg {
+      fill: black;
+      -webkit-transition: fill .3s ease-in-out;
+      -o-transition: fill .3s ease-in-out;
+      transition: fill .3s ease-in-out; }
+    .t-documents__item:hover svg {
+      fill: #fff; }
+  .t-documents__icon {
+    margin-right: 30px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
