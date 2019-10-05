@@ -229,3 +229,37 @@ p {
     padding-left: 30px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
+
+.t-sites__item {
+  text-align: center;
+  display: block;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 23px 21px;
+  color: #333;
+  background: #F2F2F2;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  max-width: 23%;
+  cursor: pointer; }
+  .t-sites__item:hover {
+    background: #006298;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-decoration: none; }
+
+.t-sites__title {
+  font-family: "Webnar-bold";
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+
+.t-sites__content {
+  font-size: 20px;
+  line-height: 25px; }

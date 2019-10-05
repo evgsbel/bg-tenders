@@ -1,0 +1,25 @@
+@media (max-width: 991.98px) {
+  .t-documents__item {
+    max-width: 95%;
+    margin: 20px auto; }
+  .t-sites__item {
+    max-width: 30%;
+    margin-top: 20px; } }
+
+@media (max-width: 575.98px) {
+  .title {
+    font-size: 26px;
+    line-height: 28px; }
+    .title span {
+      font-size: 16px; }
+  .t-help__item {
+    margin-bottom: 20px; }
+    .t-help__item:last-child {
+      margin-bottom: 0; }
+  .t-feedback__input {
+    margin-bottom: 20px; }
+  .t-requirements__table tr td:first-child, .t-requirements__table tr th:first-child {
+    width: auto; }
+  .t-sites__item {
+    max-width: 95%;
+    margin: 20px auto 0; } }
